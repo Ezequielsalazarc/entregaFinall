@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos de Aventuras</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+
+    <form id="ingresarform">
+        <input type="text" id="usuarionombre" placeholder="Nombre de usuario" required>
+        <input type="password" id="contraseñausuario" placeholder="Contraseña" required>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <div id="contenedorJuegos"></div>
+
+    <ul id="listaCarrito"></ul>
+
+    <p>Total en carrito: $<span id="totalCarrito">0.00</span></p>
+
+    <!-- Botón para concretar la compra -->
+    <button id="botonConcretarCompra">Concretar compra</button>
+
+<script src="/js/index.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+</body>
+</html>

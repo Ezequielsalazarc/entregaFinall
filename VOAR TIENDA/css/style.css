@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#contenedorJuegos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tarjeta {
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#listaCarrito {
+    list-style-type: none;
+    padding: 0;
+}
+#totalCarrito {
+    font-weight: bold;
+}
